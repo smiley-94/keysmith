@@ -11,6 +11,24 @@ Keysmith Bot is a Telegram bot designed to generate and manage ciphers. It uses 
 
 ## Installation
 
+### Option 1: Pull the Docker Image from GHCR
+
+You can directly pull the pre-built Docker image from GitHub Container Registry (GHCR) and run the bot without building the image locally.
+
+1. Pull the Docker image:
+    ```bash
+    docker pull ghcr.io/smiley-94/keysmith:latest
+    ```
+
+2. Run the bot as a Docker container:
+    ```bash
+    docker run -d --name "your_container_name" -e botToken="your_bot_token" ghcr.io/smiley-94/keysmith:latest
+    ```
+
+Remember to replace `"your_bot_token"` with your actual bot token and `"your_container_name"` with the desired container name.
+
+### Option 2: Build and Run Locally
+
 1. Clone the repository:
     ```bash
     git clone https://github.com/Smiley-94/keysmithBot.git
@@ -21,16 +39,18 @@ Keysmith Bot is a Telegram bot designed to generate and manage ciphers. It uses 
     ```bash
     pip install -r requirements.txt
     ```
-3. Prepare the image for the bot:
+
+3. Build the Docker image:
     ```bash
-    docker build .
+    docker build -t your_image_name .
     ```
+
 4. Run the bot as a Docker container:
     ```bash
     docker run -d --name "your_container_name" -e botToken="your_bot_token" your_image_name
     ```
-remember to replace "your_bot_token" with your actual bot token and "your_container_name" with the desired container
-name.
+
+Again, make sure to replace `"your_bot_token"` and `"your_container_name"` with appropriate values.
 
 ## Usage
 
