@@ -1,0 +1,28 @@
+{
+  "logLevel": "DEBUG",
+  "DeleteDelay": 15,
+  "SpecialCharacters": "#@+-_'!^.?",
+  "messagesFromBot": {
+    "en": {
+      "welcomeMessage": "Welcome, press start to begin",
+      "provideCypher": "Please provide the cipher value (4-30 characters):",
+      "invalidCypher": "Invalid cipher value. Please provide a text between 4 and 30 characters:",
+      "provideLength": "Please provide the length value (15-45):",
+      "invalidLength": "Invalid length value. Please provide a number between 15 and 45:"
+    },
+    "it": {
+      "welcomeMessage": "Benvenuto, Premi Start per iniziare",
+      "provideCypher": "Si prega di fornire il valore del cifrario (4-30 caratteri):",
+      "invalidCypher": "Valore del cifrario non valido. Si prega di fornire un testo tra 4 e 30 caratteri:",
+      "provideLength": "Si prega di fornire il valore della lunghezza (15-45):",
+      "invalidLength": "Valore della lunghezza non valido. Si prega di fornire un numero tra 15 e 45:"
+    },
+    "pt": {
+      "welcomeMessage": "Bem-vindo, Pressione Start para começar",
+      "provideCypher": "Por favor, forneça a cifra (4-30 caracteres):",
+      "invalidCypher": "Valor de cifra inválido. Por favor, forneça um texto entre 4 e 30 caracteres:",
+      "provideLength": "Por favor, forneça a quantidade de caracteres(15-45):",
+      "invalidLength": "Quantidade inválida. Por favor, forneça um número entre 15 e 45:"
+    }
+  }
+}
